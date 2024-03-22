@@ -1,4 +1,4 @@
-package TeamWorkProject.Project_01;
+package Project_01;
 
 import java.util.Scanner;
 
@@ -42,6 +42,33 @@ public class days {
 
         //  code Start here don't change before this line
         // bu satırdan önceki kodlari degiştirmeyiniz.
+
+        switch (day){
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("this is not a valid day");
+                break;
+        }
 
 
 

@@ -1,8 +1,9 @@
 package Project_08.TestClass;
 
 
-import TeamWorkProject.Project_08.Mortgage.HousePrices;
-import TeamWorkProject.Project_08.Mortgage.StatesTax;
+
+import Project_08.Mortgage.HousePrices;
+import Project_08.Mortgage.StatesTax;
 import org.junit.Assert;
 import org.junit.Test;
 

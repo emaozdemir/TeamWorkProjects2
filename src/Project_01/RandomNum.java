@@ -1,5 +1,6 @@
-package TeamWorkProject.Project_01;
+package Project_01;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class RandomNum {
@@ -29,6 +30,13 @@ public class RandomNum {
 
         //  code Start here don't change before this line
         // bu satırdan önceki kodları değiştirmeyiniz
+
+        // Rastgele sayı üretmek için Random sınıfını kullanın
+        Random random = new Random();
+        int randomNumber = random.nextInt(max + 1); // max dahil olmak üzere rastgele bir sayı elde edin
+
+        // Sonucu yazdırın
+        System.out.println("Output: " + randomNumber);
 
 
     }

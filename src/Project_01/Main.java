@@ -1,4 +1,4 @@
-package TeamWorkProject.Project_01;
+package Project_01;
 
 public class Main {
     public static void main(String[] args) {

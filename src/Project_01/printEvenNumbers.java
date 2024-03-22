@@ -1,4 +1,4 @@
-package TeamWorkProject.Project_01;
+package Project_01;
 
 import java.util.Scanner;
 
@@ -52,6 +52,10 @@ public class printEvenNumbers {
 
         //  code Start here don't change before this line
         // bu satırdan önceki kodları değiştirmeyiniz.
+
+        for (int i = 0; i < maxNum; i+=2) {
+            System.out.print(i+" ");
+        }
 
 
 

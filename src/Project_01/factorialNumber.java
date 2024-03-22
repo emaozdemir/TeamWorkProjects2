@@ -1,4 +1,4 @@
-package TeamWorkProject.Project_01;
+package Project_01;
 
 import java.util.Scanner;
 
@@ -38,6 +38,12 @@ public class factorialNumber {
 
          //      code start here  use int number
          //      kodu burdan başlatın ve int number kullanıniz
+
+        int factorial=1;
+        for (int i = 1; i <= number; i++) {
+            factorial*=i;
+        }
+        System.out.println(factorial);
 
 
 

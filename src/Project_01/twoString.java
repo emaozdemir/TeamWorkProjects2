@@ -1,4 +1,4 @@
-package TeamWorkProject.Project_01;
+package Project_01;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package TeamWorkProject.Project_01;
+package Project_01;
 
 import java.util.Scanner;
 
@@ -36,6 +36,11 @@ public class checkNumberEven {
         //  code Start here don't change before this line
         //bu satırdan önceki kodlari değiştirmeyiniz
 
+        if (number % 2 == 0) {
+            System.out.println("true");
+        } else {
+            System.out.println("false");
+        }
 
     }
 

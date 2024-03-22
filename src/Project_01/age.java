@@ -1,4 +1,4 @@
-package TeamWorkProject.Project_01;
+package Project_01;
 
 import java.util.Scanner;
 
@@ -51,6 +51,17 @@ public class age {
        //  code Start here don't change before this line
 
         //  bu satirdan onceki kodlari degistirmeyiniz
+        if (myAge <= 10) {
+            System.out.println("facebook hesabi acmak icin cok gencsin");
+        } else if (myAge <= 16) {
+            System.out.println("ehliyet almak icin cok gencsin");
+        } else if (myAge <= 18) {
+            System.out.println("dovme yaptirmak icin cok gencsin");
+        } else if (myAge <= 21) {
+            System.out.println("alkol icmek icin cok gencsin");
+        } else {
+            System.out.println("istedigini yapabilirsin");
+        }
 
 
 

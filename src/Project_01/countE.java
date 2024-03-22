@@ -1,4 +1,4 @@
-package TeamWorkProject.Project_01;
+package Project_01;
 
 import java.util.Scanner;
 
@@ -41,11 +41,21 @@ public class countE {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-
+        //System.out.println("bir metin giriniz: ");
         String text = input.nextLine();
 
         // code start here
         //  bu satırdan önceki kodlari değiştirmeyiniz
+
+
+        int count = 0;
+        for (int i = 0; i < text.length(); i++) {
+            if (text.charAt(i) == 'b') {
+                count++;
+            }
+        }
+
+        System.out.println("Metindeki 'b' karakterinin sayısı: " + count);
 
 
     }
